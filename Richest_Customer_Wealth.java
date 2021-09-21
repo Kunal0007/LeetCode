@@ -1,5 +1,7 @@
 package com.company.LeetCode;
 
+// https://leetcode.com/problems/richest-customer-wealth/
+
 public class Richest_Customer_Wealth {
     public static void main(String[] args) {
         int[][] accounts = {
