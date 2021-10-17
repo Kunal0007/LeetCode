@@ -1,6 +1,6 @@
 package com.company.LeetCode;
 
-// https://leetcode.com/problems/find-the-duplicate-number
+// https://leetcode.com/problems/find-the-duplicate-number 
 
 public class Duplicate_Number {
     public static void main(String[] args) {
