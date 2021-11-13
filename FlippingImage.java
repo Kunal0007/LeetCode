@@ -11,25 +11,15 @@ public class FlippingImage {
     }
 
     static public int[][] flipAndInvertImage(int[][] image) {
-        int n = image.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n/2; j++) {
-                int temp = image[i][j];
-                image[i][j] = image[i][n - j - 1];
-                image[i][n - j - 1] = temp;
+        int n = image[0].length;
+        for (int[] img : image) {
+            for (int i = 0; i < (n + 1) / 2; i++) {
+                int temp = img[i];
+                img[i] = img[n - i - 1] ^ 1;
+                img[n - i - 1] = temp ^ 1;
             }
         }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (image[i][j] == 0){
-                    image[i][j] = 1;
-                }
-                else {
-                    image[i][j] = 0;
-                }
-            }
-        }
         return image;
     }
 }
