@@ -4,7 +4,7 @@ package com.company.LeetCode;
 
 public class BuySellStock {
     public static void main(String[] args) {
-        int[] prices = {4,5,6,3,1,4};
+        int[] prices = {7,1,5,3,6,4};
         System.out.println(maxProfit(prices));
     }
 
