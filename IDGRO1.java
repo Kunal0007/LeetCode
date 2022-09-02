@@ -2,7 +2,7 @@ package com.company.LeetCode;
 
 import java.util.*;
 
-// https://leetcode.com/problems/insert-delete-getrandom-o1/
+//  https://leetcode.com/problems/insert-delete-getrandom-o1/
 
 class RandomizedSet {
     Set<Integer> s;
