@@ -15,9 +15,8 @@ public class Sumeven {
         int sume = 0;
         int[] ans = new int[queries.length];
         for(int i: nums){
-            if(i % 2 == 0){
-                sume += i;
-            }
+            if(i % 2 == 0) sume += i;
+
         }
         for(int i = 0; i < queries.length; i++){
             int k = nums[queries[i][1]] + queries[i][0];
